@@ -3,6 +3,8 @@
 Essa documentação está sendo desenvolvido apenas para ser forneciada as informações necessárias para executar e compreender o funcionamento da interface.
 
 ## Execução
+- Tenha instalado em sua máquina a versão mais recente do Java;
+
 - Garanta que o driver JDBC 11 esteja referenciado ao seu Projeto Java (Driver disponível na Pasta lib/java);
 
 - Para executar o projeto, basta executar o arquivo principal App.java
@@ -11,7 +13,7 @@ Será exibida a Interface de Login, a qual deverá ser preenchida com os dados r
 
 ## Database
 
-Divida por core, daos e dbos, sua função é Gerenciar, Conectar e Interagir com o Banco de Dados existente, o qual está fixado ao SQL Server de um de nossos contribuidores. Infelizmente, apenas quem obtiver acesso ao servidor do Cotuca poderá executá-lo.
+Dividida por core, daos e dbos, sua função é Gerenciar, Conectar e Interagir com o Banco de Dados existente, o qual está fixado ao SQL Server de um de nossos contribuidores. Infelizmente, apenas quem obtiver acesso ao servidor do Cotuca poderá executá-lo.
 
 ## Contribuidores
 
