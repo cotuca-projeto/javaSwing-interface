@@ -149,7 +149,8 @@ public class User implements Cloneable
 
         if (this.id != p.id || this.firstName != p.firstName ||
             this.lastName != p.lastName || this.email != p.email ||
-            this.username != p.username /*|| this.password != p.password*/)
+            this.username != p.username || this.createdAt !=p.createdAt || 
+            this.updatedAt != p.updatedAt /*|| this.password != p.password*/)
             return false;
 
         return true;
@@ -167,6 +168,8 @@ public class User implements Cloneable
         ret = 7*ret +  String.valueOf(this.username).hashCode();
         // ret = 7*ret +  String.valueOf(this.password).hashCode();
         ret = 7*ret +  Byte.valueOf(this.profile_image).hashCode();
+        ret = 7*ret +  String.valueOf(this.createdAt).hashCode();
+        ret = 7*ret +  String.valueOf(this.updatedAt).hashCode();
 
         if (ret<0) ret = -ret;
 
@@ -183,6 +186,8 @@ public class User implements Cloneable
         this.username = modelo.username;
         // this.password = modelo.password;
         this.profile_image = modelo.profile_image;
+        this.createdAt = modelo.createdAt;
+        this.updatedAt = modelo.updatedAt;
     }
 
     @Override

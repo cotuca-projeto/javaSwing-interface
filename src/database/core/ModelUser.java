@@ -19,7 +19,7 @@ public class ModelUser extends AbstractTableModel {
 
     List<User> user = new ArrayList<User>();
 
-    String[] column = {"id","Name", "LastN","Username", "Email","Created_at", "Updated_at"};
+    String[] column = {"Id","Nome", "Sobrenome","Username", "Email","CriadoEm", "AtualizadoEm"};
 
     public void refreshTable(List<User> newUser){
         user.clear();

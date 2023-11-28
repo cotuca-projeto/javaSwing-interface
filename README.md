@@ -1,14 +1,19 @@
-## Folder Structure
+# Documentação
 
-The workspace contains two folders by default, where:
+Essa documentação está sendo desenvolvido apenas para ser forneciada as informações necessárias para executar e compreender o funcionamento da interface.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Execução
+- Garanta que o driver JDBC 11 esteja referenciado ao seu Projeto Java (Driver disponível na Pasta lib/java);
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Para executar o projeto, basta executar o arquivo principal App.java
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Será exibida a Interface de Login, a qual deverá ser preenchida com os dados requeridos para a autenticação de um usuário no sistema, sendo eles o username e a senha.
 
-## Dependency Management
+## Database
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Divida por core, daos e dbos, sua função é Gerenciar, Conectar e Interagir com o Banco de Dados existente, o qual está fixado ao SQL Server de um de nossos contribuidores. Infelizmente, apenas quem obtiver acesso ao servidor do Cotuca poderá executá-lo.
+
+## Contribuidores
+
+- [Rafael Moreira](https://github.com/RMCSa)
+- [Gabriel Oliveira](https://github.com/Polabiel)
