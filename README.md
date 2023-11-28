@@ -4,9 +4,9 @@ Essa documentação está sendo desenvolvido apenas para ser forneciada as infor
 ## Requisitos
 
 - Tenha instalado em sua máquina a versão mais recente do Java;
-- 
+  
 - Garanta que o driver JDBC 11 esteja referenciado ao seu Projeto Java (Driver disponível na Pasta lib/java);
-- 
+  
 ## Execução
 
 - Para executar o projeto, basta executar o arquivo principal App.java
